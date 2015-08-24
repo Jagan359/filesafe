@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  drop: MyString
+  box: MyString
+  goog: MyString
+  filenm: MyString
+
+two:
+  drop: MyString
+  box: MyString
+  goog: MyString
+  filenm: MyString
