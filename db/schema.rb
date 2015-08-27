@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150819171631) do
+ActiveRecord::Schema.define(version: 20150826233125) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -31,6 +31,11 @@ ActiveRecord::Schema.define(version: 20150819171631) do
     t.string   "preference"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string   "s1"
+    t.string   "s2"
+    t.string   "s3"
+    t.string   "googfid"
+    t.string   "googfid2"
   end
 
 end

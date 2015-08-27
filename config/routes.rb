@@ -2,9 +2,9 @@ Rails.application.routes.draw do
   get 'cloud/dropauth'
  get 'cloud/googoauth'
   get 'cloud/boxauth'
-
+  get 'cloud/splice'
   get 'cloud/dropup'
-
+ get 'cloud/googup'
   get 'cloud/boxup'
 
   get 'cloud/upload'
