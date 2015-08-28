@@ -23,7 +23,7 @@
       			<td ><%= link_to image_tag('download.png', :class => 'toolsicon'), url_for({:controller => "home", :action => 'download', :pa => f.filename})%></td>
 		      <td><%= link_to image_tag('del.png', :class => 'toolsicon'), url_for({:controller => 'home', :action => 'delete', :pa => f.filename}), data:{ confirm: 'Really want to DELETE??'}%></td>
            <td ><%= link_to image_tag('cloudup.jpg', :class => 'toolsicon'), url_for({:controller => "cloud", :action => 'splice', :pa => f.filename})%></td>
-           <td ><%= link_to image_tag('goog.jpg', :class => 'toolsicon'), url_for({:controller => "cloud", :action => 'googoauth', :pa => f.filename})%></td>
+           <td ><%= link_to image_tag('goog.jpg', :class => 'toolsicon'), url_for({:controller => "cloud", :action => 'dropauth'})%></td>
      
        <% elsif f.status == "CLOUD" then %>
            <td ><%= link_to image_tag('clouddown.jpg', :class => 'toolsicon'), url_for({:controller => "cloud", :action => 'download', :pa => f.filename})%></td>
